@@ -6,5 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  /**
+   *  ngIg structural directive.
+   */
+  private ifcondition=true;
+
+  /**
+   *  variable declaration for the ngFor structural directive.
+   */
+  private colors:any[]=[
+  {'name':'red'},
+  {'name':'gray'},
+  {'name':'blue'},
+  {'name':'yello'},
+  {'name':'orange'},
+  {'name':'green'},
+  {'name':'black'},
+  ];
+
+  /**
+  * variable declaration for ngSwitch structural directive.
+  */
+  private button="On";
+
+
 }

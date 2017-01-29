@@ -1,0 +1,29 @@
+█ [ D:\github2\angular2\Day1-Directives ] pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+█ [ D:\github2\angular2\Day1-Directives ] dir
+ Volume in drive D is www
+ Volume Serial Number is C4AE-FAC1
+
+ Directory of D:\github2\angular2\Day1-Directives
+
+29-Jan-17  12:55 PM    <DIR>          .
+29-Jan-17  12:55 PM    <DIR>          ..
+29-Jan-17  11:30 AM               245 .editorconfig
+29-Jan-17  11:30 AM               488 .gitignore
+29-Jan-17  11:30 AM             1,086 angular-cli.json
+29-Jan-17  11:57 AM    <DIR>          e2e
+29-Jan-17  11:30 AM             1,127 karma.conf.js
+29-Jan-17  11:58 AM    <DIR>          node_modules
+29-Jan-17  11:30 AM             1,382 package.json
+29-Jan-17  11:30 AM               757 protractor.conf.js
+29-Jan-17  12:49 PM            26,665 README.html
+29-Jan-17  12:49 PM             1,107 README.md
+29-Jan-17  11:58 AM    <DIR>          src
+29-Jan-17  12:55 PM                 1 terminal.glue
+29-Jan-17  11:30 AM             2,691 tslint.json
+              10 File(s)         35,549 bytes
+               5 Dir(s)  27,824,308,224 bytes free
+
+ 

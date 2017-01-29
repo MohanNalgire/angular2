@@ -1,31 +1,104 @@
-# SetupTemplate
+# Day1 Angular 2 Directives 
+###(For code ref::Day1-Directives/README.html)
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+Their are three kind of directives in angular 2
+Definiations:
+Directives that changes the structure of the DOM.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Directives Points:
+1   Directives are components without a view.
+2   Directives are components without template.
 
-## Code scaffolding
+Component points:
+1   Components are directives with view.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Note:: Everything you can do with a directive you can also do with a component. But not everything you can do with a component you can do with a directive.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Types of Directives in ng2
+1   Components              
+    Directives with a template.
+2   Structural Ddirectives  
+    Change the DOM layout by adding and  removing DOM elements.
+    Strutural directive change the change the structure of the view.
+    Structural directives in ng2 example.
+        2.1 NgFor (This directive is the successor of Angular 1s ng-repeat directive.)
+        2.2 NgIf
+        2.3 ngSwitch
+    
 
-## Running unit tests
+3   Attribute Directives    
+    Change the appearance or behaviour of element.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+# *ngIf Example explanation:
+In app.component.ts file add 
+ in class AppComponent add this 
+```
+  /*
+   *  ngIg structural directive.
+   */
+  private ifcondition=true;
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+in app.compnent.html
+ngIf syntax:
+```
+<p *ngIf="expression">If true value displayed.</p>
+```
 
-## Deploying to GitHub Pages
+Note::  Here * indicate that is is condtional expression.
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+# *ngFor Example explation.
+In app.component.ts file add 
+ in class AppComponent add this
 
-## Further help
+```
+  /*  
+   *  variable declaration for the ngFor structural directive.  
+   */  
+  private colors:any[]=[
+  {'name':'red'},
+  {'name':'gray'},
+  {'name':'blue'},
+  {'name':'yello'},
+  {'name':'orange'},
+  {'name':'green'}, 
+  {'name':'black'},
+  ];  
+```
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+In app.component.html
+```
+<ol>
+    <li *ngFor="let color of colors" >
+        {{color.name}}
+    </li>
+</ol>
+```
+
+# *ngSwitch Example explation.
+In app.component.ts file add
+in class Appcompoent class
+
+```
+    /*
+    * variable declaration for ngSwitch structural directive.
+    */
+    private button="On";
+```
+
+```
+    <ul [ngSwitch]="button">
+        <li *ngSwitchCase="'On'"  >Button is On.</li>
+        <li *ngSwitchCase="'Off'"  >Button is Off</li>
+    </ul>
+```
+
+
+# Questions:
+
+What is Directive?
+What are types of directive?
+What is diffrence in component and directive.?
+

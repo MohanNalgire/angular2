@@ -1,3 +1,30 @@
-<h1>
-  {{title}}
-</h1>
+<h1>ngIF structural directive </h1>
+<h3>Example</h3>
+<p *ngIf="ifcondition" >Here condition is true so we can see paragrapph</p>
+
+
+<h1>ngFor structural directive </h1>
+<h3>Example</h3>
+<ol>
+	<li *ngFor="let color of colors" >
+		{{color.name}}
+	</li>
+</ol>
+
+This is equal to ng-repeat from angular1.<br>
+<pre>
+Note ::In this syntax let is a new keyword in JavaScript latest versions for block level variable declaration.
+so the effect of the variable remains of the (for of) loop.
+
+working ::
+In the component.ts file in the class AppComponent.
+we declare one variable as colors with type as any of array
+so on that we use array loop as for of loops implementation.
+</pre>
+<h1>ngSwitch structural directive </h1>
+<h3>Example</h3>
+<ul [ngSwitch]="button">
+	<li *ngSwitchCase="'On'"  >Button is On.</li>
+	<li *ngSwitchCase="'Off'"  >Button is Off</li>
+</ul>
+
