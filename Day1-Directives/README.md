@@ -15,16 +15,16 @@ Component points:
 Note:: Everything you can do with a directive you can also do with a component. But not everything you can do with a component you can do with a directive.
 
 
-Types of Directives in ng2
-1   Components              
-    Directives with a template.
-2   Structural Ddirectives  
-    Change the DOM layout by adding and  removing DOM elements.
-    Strutural directive change the change the structure of the view.
-    Structural directives in ng2 example.
-        2.1 NgFor (This directive is the successor of Angular 1s ng-repeat directive.)
-        2.2 NgIf
-        2.3 ngSwitch
+Types of Directives in ng2  
+1   Components               
+    Directives with a template.  
+2   Structural Ddirectives.   
+    Change the DOM layout by adding and  removing DOM elements.  
+    Strutural directive change the change the structure of the view.  
+    Structural directives in ng2 example.  
+        2.1 NgFor (This directive is the successor of Angular 1s ng-repeat directive.)  
+        2.2 NgIf  
+        2.3 ngSwitch  
     
 
 3   Attribute Directives    
