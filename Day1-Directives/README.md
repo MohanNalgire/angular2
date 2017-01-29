@@ -98,7 +98,7 @@ in class Appcompoent class
 
 # Questions:
 
-What is Directive?
-What are types of directive?
-What is diffrence in component and directive.?
+What is Directive?  
+What are types of directive?  
+What is diffrence in component and directive.?  
 
