@@ -2,7 +2,9 @@
 
 Definition : Pipes transform displayed values within a template.
 
+
 <table>
+    <caption>Pipes and filters from Angular1 and Angular2 </caption>
     <tr><th>Pipe/Filter</th><th>Angular1</th><th>Angular2</th></tr>
     <tr><td>currency</td><td>Present</td><td>Present</td></tr>
     <tr><td>date </td><td>Present</td><td>Present</td></tr>
