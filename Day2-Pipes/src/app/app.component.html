@@ -1,0 +1,85 @@
+<h1> Day 2 Pipes in ng2 </h1>
+
+<!-- Data comes from app.component.ts -->
+
+Currency pipe:
+Example   === > {{ currency | currency }}<br>
+
+date pipe:
+Example   === > {{ today | date }} <br>
+
+
+number (Decimal ) pipe:
+Example   === > {{ pi  | number:'3.5-5' }}<br>
+
+json pipe:
+Example   === > 
+<pre>{{ jsonvar | json }}<br></pre>
+
+lowercase pipe:
+Example   === > {{ fullname | lowercase }}<br>
+
+uppercase pipe:
+Example   === > {{ fullname | uppercase }}
+
+
+<table border="1"> 
+  <Caption>uppercase and lowercase pipe Example </Caption>
+  <tr>
+    <th>Field Name</th>
+    <th>Data filed</th>
+    <th>uppercase </th>
+    <th>lowercase</th>
+  </tr>
+  <tr>
+    <td>First Name </td>
+    <td> <input type='text' name="fname" [(ngModel)]="f_name" placeholder="Enter your first name"/></td>
+    <td>{{f_name | uppercase }}</td>
+    <td>{{f_name | lowercase }}</td>
+  
+  </tr>
+  <tr>
+    <td>Middle Name</td>
+    <td> <input type='text' name="mname" [(ngModel)]="m_name" placeholder="Enter your middle name" /></td>
+    <td>{{ m_name | uppercase }}</td>
+    <td>{{m_name | lowercase }}</td>
+
+  </tr>
+  <tr><td>Last Name</td>
+  <td><input type="text" name="lname" [(ngModel)]="l_name" placeholder="Enter your last name" /></td>
+  <td>{{ l_name | uppercase }}</td>
+  <td>{{ l_name | lowercase }}</td>
+ 
+  </tr>
+</table>
+
+<table border="1">
+  <caption>Date Pipe Example</caption>
+  <tr>
+    <td colspan="2">
+    <td colspan="7">Date formats</td>
+  </tr>
+  <tr>
+    <th>Field Name</th>
+    <th>Data filed</th>
+    <th>medium format</th>
+    <th>short format</th>
+    <th>fullDate format</th>
+    <th>mediumDate format</th>
+    <th>shortDate format</th>
+    <th>mediumTime</th>
+    <th>shortTime</th>
+  </tr>
+  <tr>
+    <td>Birth date</td>
+    <td><input type="date" [(ngModel)]="birth_date" /></td>
+    <td>{{birth_date | date:'medium'}}</td>
+    <td>{{birth_date | date:'short'}}</td>
+    <td>{{birth_date | date:'fullDate'}}</td>
+    <td>{{birth_date | date:'mediumDate'}}</td>
+    <td>{{birth_date | date:'shortDate'}}</td>
+    <td>{{birth_date | date:'mediumTime'}}</td>
+    <td>{{birth_date | date:'shortTime'}}</td>
+    
+  </tr>
+</table>
