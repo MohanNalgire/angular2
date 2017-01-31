@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 //import { FirstComponent } from './first/first.component';
-
 import {AppRoutingModule, routingCompnents} from './app.routing';
 
 @NgModule({
