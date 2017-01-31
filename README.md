@@ -10,7 +10,7 @@ Install following libraris and softwares
 Any Editor  
 [Atom](https://atom.io/),   
 [Notepad++](https://notepad-plus-plus.org/).  
-[ Install angular2-cli] (https://cli.angular.io/)  
+Install [angular2-cli] (https://cli.angular.io/)  
 
 Note :: For each day clone setup-template or copy paste it from previous download.
 
