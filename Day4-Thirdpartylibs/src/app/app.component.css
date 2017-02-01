@@ -1,0 +1,8 @@
+ul#leftbox {
+    width: 80%;
+}
+ul#rightbox{
+    width:20%;
+    position:absolute;
+    right:0px;
+}
