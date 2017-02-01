@@ -46,21 +46,20 @@ Note::
 
 
 ### Setps 
-<ol>
-    <li>    Create new folder in app directory `home` </li>
-    <li>    Create new file in `home` directory as `home.component.ts` </li>
-    <li>    Copy paste code from `app.component.ts` file to `home.component.ts` file </li>
-    <li>    Create new file in `home` directory as `home.component.html` file</li>
+1    Create new folder in app directory `home` file.  
+2    Create new file in `home` directory as `home.component.ts` file.  
+3    Copy paste code from `app.component.ts` file to `home.component.ts` file.  
+4    Create new file in `home` directory as `home.component.html` file.  
 
 ```
     <h1>    Home component file </h1>
-    
+
 ```
 
-   <li>     Create new file in `home` directory as `home.component.css` file </li>
-   <li>     In above file write home component related style rules </li>
-   <li>     Create new file in `app` folder with name `app.routings.ts` file </li>
-   <li>     Add the bellow code in the file `app.routings.ts` </li>
+7     Create new file in `home` directory as `home.component.css` file.  
+8     In above file write home component related style rules.  
+9     Create new file in `app` folder with name `app.routings.ts` file.  
+10    Add the bellow code in the file `app.routings.ts`file.  
 
 ```
     import {NgModule} from '@angular/core';
@@ -96,7 +95,7 @@ Note::
     ]
 ```
 
-<li>    Now your `app` folder contain file `app.component.ts` change like this bellow </li>
+11    Now your `app` folder contain file `app.component.ts` change like this bellow.  
 
 ```
     import { BrowserModule } from '@angular/platform-browser';
@@ -132,7 +131,7 @@ then the 4 files are created as with folder name as componentName .
 And in `app.component.ts` file that files component are imorted because this is main component file.  
 For more details on component and component dependancy read on anglar api document.  
 
-<li>     Follow above steps to create multiple component </li>
+12     Follow above steps to create multiple component.  
 
 ### Questions:
 <ol>
