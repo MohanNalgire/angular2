@@ -1,9 +1,9 @@
 # Day4 Third Party Library Installtion in ng2
 
-<ol>
-<li>    Copy `setup-template` and paste it and rename for Day4 </li>
-<li>    To Install third party library use the bellow command</li>
-<li>    Installation of bootstrap </li>
+
+1 Copy `setup-template` and paste it and rename for Day4  
+2 To Install third party library use the bellow command  
+3 Installation of bootstrap  
 
 ```
 github2\angular2\Day4-Thirdpartylibs>npm install ng2-bootstrap --save
