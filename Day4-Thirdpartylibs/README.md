@@ -54,6 +54,7 @@ Note::
 
 ```
     <h1>    Home component file </h1>
+    
 ```
 
    <li>     Create new file in `home` directory as `home.component.css` file </li>
