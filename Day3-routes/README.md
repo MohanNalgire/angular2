@@ -131,7 +131,6 @@ By ising these steps you can create multiple components and define multiple rout
 <li>    What is need to set <base href="/" /> in index.html? </li>
 <li>    What we use to display the router page content in html ? </li>
 <li>    How we create link to routes in html in ng2?</li>
-<li>    
 </ol>
 
 
