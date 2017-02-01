@@ -32,6 +32,7 @@ github2\angular2\Day4-Thirdpartylibs>npm install ng2-bootstrap --save
         "../node_modules/bootstrap/dist/css/bootstrap.css"
       ],   
 ```
+
 Note::  
 1 Follow dependancy rules of js.  
 2 Don't do any mistake in defining file path.  
@@ -39,10 +40,10 @@ Note::
 
 
 ## Now we will see how to implement routes with bootstrap as a header page design
-<ol>
-<li>    We will create Home, AboutUs, Services, Contacts, Login, Logout pages <li>
-<li>    We will design header with above page nevigation.</li>
-</ol>
+
+1    We will create Home, AboutUs, Services, Contacts, Login, Logout pages.  
+2    We will design header with above page nevigation.  
+
 
 ### Setps 
 <ol>
@@ -52,7 +53,7 @@ Note::
     <li>    Create new file in `home` directory as `home.component.html` file</li>
 
 ```
-    <h1>    Home component file </li>
+    <h1>    Home component file </h1>
 ```
 
    <li>     Create new file in `home` directory as `home.component.css` file </li>
