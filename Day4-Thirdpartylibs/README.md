@@ -5,15 +5,19 @@
 2 To Install third party library use the bellow command  
 3 Installation of bootstrap  
 
+
 ```
 github2\angular2\Day4-Thirdpartylibs>npm install ng2-bootstrap --save
 ```
 
+
 4 Installation of jQuery  
+
 
 ```
     github2\angular2\Day4-Thirdpartylibs>npm install jquery --save
 ```
+
 5 After installtion in file `angular-cli.json` angular-cli application settings file.  
 6 Change these two keys as script, style.  
 
