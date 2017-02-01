@@ -9,13 +9,13 @@
 github2\angular2\Day4-Thirdpartylibs>npm install ng2-bootstrap --save
 ```
 
-<li>    Installation of jQuery</li>
+4 Installation of jQuery  
 
 ```
     github2\angular2\Day4-Thirdpartylibs>npm install jquery --save
 ```
-<li>    After installtion in file `angular-cli.json` angular-cli application settings file </li>
-<li>    Change these two keys as script, style </li>
+5 After installtion in file `angular-cli.json` angular-cli application settings file.  
+6 Change these two keys as script, style.  
 
 ```
   "scripts": [
@@ -34,9 +34,6 @@ Note::
 3 define libraries fist and mvc later.  
 
 
-
-
-</ol>
 ## Now we will see how to implement routes with bootstrap as a header page design
 <ol>
 <li>    We will create Home, AboutUs, Services, Contacts, Login, Logout pages <li>
