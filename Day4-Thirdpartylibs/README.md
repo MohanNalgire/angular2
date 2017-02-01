@@ -6,7 +6,7 @@
 <li>    Installation of bootstrap </li>
 
 ```
-    github2\angular2\Day4-Thirdpartylibs>npm install ng2-bootstrap --save
+github2\angular2\Day4-Thirdpartylibs>npm install ng2-bootstrap --save
 ```
 
 <li>    Installation of jQuery</li>
