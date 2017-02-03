@@ -11,12 +11,11 @@ Any Editor
 [Atom](https://atom.io/),   
 [Notepad++](https://notepad-plus-plus.org/).  
 ### Best Editors
-1 Visual Studio Code
-2 Sublime
-3 Atom
-4 WebStrom
-5 Bracket
-
+1 [Visual Studio Code](https://code.visualstudio.com/)  
+2 [Sublime](https://www.sublimetext.com/)  
+3 [Atom](https://atom.io/)  
+4 [WebStrom](https://www.jetbrains.com/webstorm/)  
+5 [Bracket](http://brackets.io/)  
 Install [angular2-cli] (https://cli.angular.io/)  
 
 Note :: For each day clone setup-template or copy paste it from previous download.
