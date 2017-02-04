@@ -1,0 +1,22 @@
+<div class="container">
+<form #form="ngForm" (ngSubmit)="submitForm(form.value)" >
+
+
+<div class="row" >
+  <label>User Name</label>
+  <input type="text" class="form-control" name="userid" ngModel
+    placeholder="Enter userid"  />
+</div>
+
+
+<div class="row">
+  <label>User Password</label>
+  <input type="password" class="form-control" name="password" ngModel
+  placeholder="Enter password"  />
+</div>
+
+<div class="row" >
+  <input type="submit" class="btn btn-success btn-lg form-control" name="Submit" Value="Submit" />
+</div>
+</form>
+</div>

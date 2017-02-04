@@ -1,0 +1,14 @@
+form{
+    margin: 10% auto;
+    padding: 60px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #b19898;
+    border-radius: 10px;
+    border-width: 5px;
+    border-radius: 50%;
+}
+div.row{
+    padding:10px;
+}
+
