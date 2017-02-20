@@ -2,21 +2,27 @@
 
 ##Steps to create http request.
 ###1   Make http call from service.
-To make http call in angular2 we have to create
-    1   Service file.
-    2   import http module, rxjs module or related operators.
+To make http call in angular2 we have to create  
+    1   Service file.  
+    2   import http module, rxjs module or related operators.  
+
 ```
     import {Injectable} from '@angular/core';
     import {Http,Response,Headers,RequestOptions} from '@angular/http';
     import {Observable} from 'rxjs/Observable';
     import 'rxjs/add/operator/map';
 ```    
-    3 create a service class for http request
+
+    3 create a service class for http request  
+
 ```
 export class Names{
 }
 ```
-    4 in class add properties and crete constructor as 
+
+
+    4 in class add properties and crete constructor as  
+
 ```
 export class Names{
     name:string;
@@ -27,9 +33,11 @@ export class Names{
     constructor(private http: Http){}
 }
 ```
+
     5 in above code we use fileurl property for class for defining url for our request page.
     For this in our application we create new folder with `api`  name and add file as `myjsonobject.json`
-    add paste this data as 
+    add paste this data as  
+
 ```
 {
 "records":[
@@ -51,14 +59,20 @@ export class Names{
 ]
 } 
 ```
+
+
 if you want this data then use w3schools suggesion for angular1 http request where for test we get 
-this url as `https://www.w3schools.com/angular/customers.php`if you like.
+this url as `https://www.w3schools.com/angular/customers.php`if you like.  
+
     
-    6. see the class constructor with parameter as http module object.
+    6. see the class constructor with parameter as http module object.  
+
 ```
     constructor(http:Http){}
 ```
-    7. Create methods for data handling as 
+
+    7. Create methods for data handling as  
+
 ```
 getNames(){
         return this.names=[
@@ -75,7 +89,10 @@ getNames(){
                     );
     }
 ```
-    8. Whole file `app.names.service.ts` code
+
+
+    8. Whole file `app.names.service.ts` code  
+
 ```
     import {Injectable} from '@angular/core';
 import {Http,Response,Headers,RequestOptions} from '@angular/http';
@@ -110,14 +127,18 @@ export class Names{
 ```
 
 ###2   Receive the response from http request as observable and map it.
-1   In file `app.component.ts` file import OnInit module from `@angular/core`;
-    and also import `app.name.service` file;
+1   In file `app.component.ts` file import OnInit module from `@angular/core`;  
+    and also import `app.name.service` file;  
+
 ```
 import { Component,OnInit } from '@angular/core';
 import {Names} from './app.names.service';
 ```
+
 2   Now we want to add the perticualar service for perticular component so 
-in @component add providers:[Names] as 
+in @component add providers:[Names] as  
+
+
 ```
 @Component({
   selector: 'app-root',
@@ -126,9 +147,11 @@ in @component add providers:[Names] as
   providers:[     Names,      ]
 })
 ```
+
 ###3   Subscribe the observable.
-   Now in class handle the response from http request by ngOnInit() methods.
-   Assign the response to the local variable (filedata)
+   Now in class handle the response from http request by ngOnInit() methods.  
+   Assign the response to the local variable (filedata)  
+
 ```
 export class AppComponent {
   names:Array<string>;
@@ -146,7 +169,9 @@ export class AppComponent {
     }
 }
 ```
-now wholde code looks like
+
+now wholde code looks like  
+
 ```
 import { Component,OnInit } from '@angular/core';
 import {Names} from './app.names.service';
@@ -173,3 +198,4 @@ export class AppComponent {
     }
 }
 ```
+
