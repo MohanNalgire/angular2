@@ -102,3 +102,53 @@ What is Directive?
 What are types of directive?  
 What is diffrence in component and directive.?  
 
+#Angular2 Notes
+
+## Predefined directives from some angular2 libs.
+
+### @angular/common
+<ol>
+    <li>NgClass</li>
+    <li>NgFor</li>
+    <li>NgIf</li>
+    <li>NgPlural</li>
+    <li>NgPluralCase</li>
+    <li>NgStyle</li>
+    <li>NgSwitch</li>
+    <li>NgSwitchCase</li>
+    <li>NgSwitchDefault</li>
+    <li>NgTemplateOutlet</li>
+</ol>
+
+### @angular/forms
+<ol>
+    <li>CheckboxRequiredValidator</li>
+    <li>CheckboxControlValueAccessor</li>
+    <li>DefaultValueAccessor</li>
+    <li>FormArrayName</li>
+    <li>FormControlDirective</li>
+    <li>FormGroupDirective</li>
+    <li>MaxLengthValidator</li>
+    <li>MinLengthValidator</li>
+    <li>NgControlStatus</li>
+    <li>NgControlStatusGroup</li>
+    <li>NgForm</li>
+    <li>NgModel</li>
+    <li>NgModelGroup</li>
+    <li>NgSelectOption</li>
+    <li>PatternValidator</li>
+    <li>RadioControlValueAccessor</li>
+    <li>RequiredValidator</li>
+    <li>SelectControlValueAccessor</li>
+    <li>SelectMultipleControlValueAccessor</li>
+</ol>
+
+### @angular/router
+
+<ol>
+    <li>RouterLink</li>
+    <li>RouterOutlet</li>
+    <li>RouterLInkActive</li>
+    <li>RouterLinkWithHref</li>
+    <li>RouterOutlet</li>
+</ol>

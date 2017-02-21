@@ -99,3 +99,21 @@ What are types of pipes in Angular2?
 What are new pipes as compare to Angular1 in Angular2?  
 What is syntax for each pipe.?  
 How to write indian currency symbol in currency pipe?  
+
+
+## Predefined Pipes(Filters) from some angular2 libs.
+
+### @angular/common
+<ol>
+    <li>AsyncPipe</li>
+    <li>CurrencyPipe </li>
+    <li>DatePipe </li>
+    <li>DecimalPipe </li>
+    <li>I18nPluralPipe </li>
+    <li>I18nSelectPipe </li>
+    <li>JsonPipe </li>
+    <li>LowerCasePipe</li>
+    <li>PercentPipe </li>
+    <li>SlicePipe </li>
+    <li>UpperCasePipe</li>
+</ol>
